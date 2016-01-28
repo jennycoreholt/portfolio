@@ -5792,9 +5792,8 @@ html, body {
 /* HOMEPAGE */
 section#header {
   background-color: #cee2fc;
-  background-image: url("../img/divider-pattern2.png");
+  background-image: url("../img/header-pattern.png");
   background-repeat: repeat-x repeat-y;
-  background-position: center 30%;
   height: 640px;
   width: auto; }
   @media (min-width: 414px) {
@@ -5941,7 +5940,7 @@ section#header {
   padding-top: 10px;
   border: 0;
   width: 100%;
-  background-color: #c3ddfe; }
+  background-color: #c6dffe; }
 
 .nav-pills > li > a {
   color: white;
@@ -6076,7 +6075,8 @@ ul.nav.nav-pills {
   padding: 0 1em;
   text-align: center;
   border-left: 1px solid #ccc;
-  background-color: #fff; }
+  background-color: #fff;
+  font-size: 13px; }
 
 #about ul {
   text-align: center;
@@ -6163,9 +6163,9 @@ ul.nav.nav-pills {
 /* Divider */
 .divider {
   background-color: #cee2fc;
-  background-image: url("../img/divider-pattern3.png");
+  background-image: url("../img/divider-pattern.png");
   background-repeat: repeat-x repeat-y;
-  background-position: center 30%;
+  background-position: center;
   height: 150px;
   width: auto; }
 

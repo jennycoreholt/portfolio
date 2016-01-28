@@ -11,9 +11,9 @@ html,body {
 
 section#header {
 	background-color: #cee2fc;
-	background-image: url("../img/divider-pattern2.png");
+	background-image: url("../img/header-pattern.png");
 	background-repeat: repeat-x repeat-y;
-	background-position: center 30%;
+	// background-position: center 30%;
 	height: 640px;
 	width: auto;
 
@@ -206,7 +206,7 @@ section#header {
 	padding-top: 10px;
 	border: 0;
 	width: 100%;
-	background-color: #c3ddfe;
+	background-color: #c6dffe;
 }
 
 .nav-pills > li > a {
@@ -340,6 +340,7 @@ ul.nav.nav-pills {
     text-align: center;
     border-left: 1px solid #ccc;
     background-color: #fff;
+		font-size: 13px;
 }
 
 #about ul {
@@ -457,9 +458,9 @@ ul.nav.nav-pills {
 
 .divider {
 	background-color: #cee2fc;
-	background-image: url("../img/divider-pattern3.png");
+	background-image: url("../img/divider-pattern.png");
 	background-repeat: repeat-x repeat-y;
-	background-position: center 30%;
+	background-position: center;
 	height: 150px;
 	width: auto;
 
