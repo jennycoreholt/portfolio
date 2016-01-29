@@ -5789,135 +5789,56 @@ section#header {
   background-image: url("../img/rac-header.png");
   background-repeat: repeat-x repeat-y;
   background-position: center 30%;
-  height: 640px;
+  height: 100%;
   width: auto; }
-  @media (min-width: 412px) {
-    section#header {
-      height: 659px; } }
-  @media (min-width: 414px) {
-    section#header {
-      height: 736px; } }
-  @media (min-height: 480px) {
-    section#header {
-      height: 535px; } }
-  @media (min-height: 533px) {
-    section#header {
-      height: 535px; } }
-  @media (min-height: 568px) {
-    section#header {
-      height: 570px; } }
-  @media (min-height: 640px) {
-    section#header {
-      height: 645px; } }
-  @media (min-height: 627px) {
-    section#header {
-      height: 630px; } }
-  @media (min-height: 736px) {
-    section#header {
-      height: 736px; } }
-  @media (min-width: 768px) {
-    section#header {
-      height: 350px; } }
-  @media (min-height: 1024px) {
-    section#header {
-      height: 450px; } }
-  @media (min-width: 1280px) {
-    section#header {
-      height: 500px; } }
-  @media (min-width: 1400px) {
-    section#header {
-      height: 550px; } }
-  @media (min-width: 1600px) {
-    section#header {
-      height: 450px; } }
 
 #header h1 {
   font-family: 'Cookie', cursive;
   color: #fff;
   font-size: 70px;
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 150px; }
   @media (min-width: 320px) {
     #header h1 {
       font-size: 55px;
-      margin-top: 80px; } }
+      margin-top: 100px; } }
   @media (min-width: 360px) {
     #header h1 {
       font-size: 70px;
-      margin-top: 100px; } }
+      margin-top: 150px; } }
   @media (min-width: 412px) {
     #header h1 {
       font-size: 70px;
-      margin-top: 90px;
-      padding-left: 50px;
-      padding-right: 50px; } }
+      margin-top: 100px; } }
   @media (min-width: 414px) {
     #header h1 {
-      font-size: 70px;
-      margin-top: 120px;
-      padding-left: 50px;
-      padding-right: 50px; } }
+      font-size: 80px;
+      margin-top: 160px; } }
   @media (min-width: 600px) {
     #header h1 {
-      font-size: 70px;
-      margin-top: 60px;
-      padding-left: 65px;
-      padding-right: 65px; } }
+      font-size: 90px;
+      margin-top: 180px; } }
   @media (min-width: 768px) {
     #header h1 {
-      font-size: 75px;
-      margin-top: 40px;
-      padding-left: 140px;
-      padding-right: 140px; } }
+      font-size: 100px;
+      margin-top: 170px; } }
   @media (min-width: 800px) {
     #header h1 {
-      font-size: 90px;
-      margin-top: 50px;
-      padding-left: 110px;
-      padding-right: 110px; } }
-  @media (min-height: 960px) {
-    #header h1 {
-      font-size: 90px;
-      margin-top: 90px;
-      padding-left: 110px;
-      padding-right: 110px; } }
-  @media (min-height: 1024px) {
-    #header h1 {
-      font-size: 75px;
-      margin-top: 50px;
-      padding-left: 100px;
-      padding-right: 100px; } }
+      font-size: 120px;
+      margin-top: 200px; } }
   @media (min-width: 1280px) {
     #header h1 {
       font-size: 120px;
-      margin-top: 60px;
-      padding-left: 250px;
-      padding-right: 250px; } }
-  @media (min-height: 1280px) {
-    #header h1 {
-      font-size: 90px;
-      margin-top: 30px;
-      padding-left: 100px;
-      padding-right: 100px; } }
+      margin-top: 200px; } }
   @media (min-width: 1400px) {
     #header h1 {
-      font-size: 100px;
-      margin-top: 60px;
-      padding-left: 390px;
-      padding-right: 390px; } }
-  @media (min-width: 1440px) {
-    #header h1 {
-      font-size: 100px;
-      margin-top: 50px;
-      padding-left: 380px;
-      padding-right: 380px; } }
+      font-size: 120px;
+      margin-top: 200px; } }
   @media (min-width: 1600px) {
     #header h1 {
       text-align: center;
       font-size: 100px;
-      margin-top: 45px;
-      padding-left: 450px;
-      padding-right: 450px; } }
+      margin-top: 280px; } }
 
 #header h4 {
   font-family: sans-serif, serif;
@@ -5963,47 +5884,10 @@ section#header {
       margin-top: 25px; } }
 
 /* CHALLENGEE SECTION */
-section#challenge {
+#challenge .container-fluid {
   background-color: #DFDEDF;
-  height: 800px;
-  width: auto;
-  margin-top: -20px; }
-  @media (min-width: 360px) {
-    section#challenge {
-      height: 150px; } }
-  @media (min-width: 384px) {
-    section#challenge {
-      height: 950px; } }
-  @media (min-height: 480px) {
-    section#challenge {
-      height: 900px; } }
-  @media (min-height: 568px) {
-    section#challenge {
-      height: 900px; } }
-  @media (min-height: 640px) {
-    section#challenge {
-      height: 900px; } }
-  @media (min-height: 627px) {
-    section#challenge {
-      height: 900px; } }
-  @media (min-height: 736px) {
-    section#challenge {
-      height: 950px; } }
-  @media (min-height: 960px) {
-    section#challenge {
-      height: 1300px; } }
-  @media (min-height: 1024px) {
-    section#challenge {
-      height: 1200px; } }
-  @media (min-width: 1280px) {
-    section#challenge {
-      height: 880px; } }
-  @media (min-height: 1280px) {
-    section#challenge {
-      height: 1250px; } }
-  @media (min-height: 2560px) {
-    section#challenge {
-      height: 900px; } }
+  height: 100%;
+  width: auto; }
 
 #challenge h1 {
   font-family: 'Cookie', cursive;
@@ -6043,54 +5927,29 @@ section#challenge {
 
 #challenge .img-responsive {
   padding-top: 10px;
+  margin-bottom: 100px;
   width: 600px;
   height: auto; }
-  @media (min-height: 1024px) {
+  @media (min-width: 950px) {
     #challenge .img-responsive {
-      margin: auto; } }
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 80px; } }
   @media (min-width: 1280px) {
     #challenge .img-responsive {
       margin-left: 60px;
       margin-right: 60px;
       margin-top: 80px; } }
-  @media (min-height: 1280px) {
-    #challenge .img-responsive {
-      margin: auto; } }
-  @media (min-height: 2560px) {
-    #challenge .img-responsive {
-      padding-top: 90px; } }
 
 .row {
   margin-left: 0;
   margin-right: 0; }
 
 /* IDEAA SECTION */
-section#idea {
+#idea .container-fluid {
   background-color: #fbfbfb;
-  height: 1200px;
-  width: auto;
-  margin-top: -20px; }
-  @media (min-width: 320px) {
-    section#idea {
-      height: 1900px; } }
-  @media (min-width: 360px) {
-    section#idea {
-      height: 2000px; } }
-  @media (min-width: 414px) {
-    section#idea {
-      height: 2000px; } }
-  @media (min-width: 600px) {
-    section#idea {
-      height: 2150px; } }
-  @media (min-width: 800px) {
-    section#idea {
-      height: 2150px; } }
-  @media (min-width: 1000px) {
-    section#idea {
-      height: 1800px; } }
-  @media (min-width: 1280px) {
-    section#idea {
-      height: 1500px; } }
+  height: 100%;
+  width: auto; }
 
 .light-bulb {
   margin: 20px auto auto auto;
@@ -6156,54 +6015,22 @@ section#idea {
     margin-top: 140px;
     margin-right: 100px; } }
 
-@media (min-width: 1280px) {
-  .gallery-img {
-    content: url("../img/gallery-img-lg.png");
-    float: left;
-    margin-top: 70px; } }
+.gallery-img .img-responsive {
+  margin-bottom: 100px; }
+  @media (min-width: 1280px) {
+    .gallery-img .img-responsive {
+      content: url("../img/gallery-img-lg.png");
+      float: left;
+      margin-top: 70px; } }
 
 /* WIREFRAMESS SECTION */
-section#wireframe {
+#wireframe .container-fluid {
   background-color: #e0e0e0;
   background-image: url("../img/sketchlogo.png");
   background-repeat: repeat-x repeat-y;
   background-position: center 20%;
-  height: 3000px;
-  width: auto;
-  margin-top: -20px; }
-  @media (min-width: 320px) {
-    section#wireframe {
-      height: 2100px; } }
-  @media (min-width: 360px) {
-    section#wireframe {
-      height: 2400px; } }
-  @media (min-width: 360px) {
-    section#wireframe {
-      height: 2300px; } }
-  @media (min-width: 375px) {
-    section#wireframe {
-      height: 2450px; } }
-  @media (min-width: 384px) {
-    section#wireframe {
-      height: 2450px; } }
-  @media (min-width: 412px) {
-    section#wireframe {
-      height: 2600px; } }
-  @media (min-width: 600px) {
-    section#wireframe {
-      height: 3400px; } }
-  @media (min-width: 768px) {
-    section#wireframe {
-      height: 3300px; } }
-  @media (min-width: 800px) {
-    section#wireframe {
-      height: 3350px; } }
-  @media (min-width: 1000px) {
-    section#wireframe {
-      height: 800px; } }
-  @media (min-width: 1280px) {
-    section#wireframe {
-      height: 900px; } }
+  height: 100%;
+  width: auto; }
 
 #wireframe h1 {
   font-family: 'Cookie', cursive;
@@ -6249,48 +6076,14 @@ section#wireframe {
       margin: auto;
       padding-bottom: 40px; } }
 
+.last-img {
+  margin-bottom: 100px; }
+
 /* THE DESIGN */
-section#design {
+#design .container-fluid {
   background-color: #ececec;
   height: 100%;
-  width: auto;
-  margin-top: -20px; }
-  @media (min-width: 320px) {
-    section#design {
-      height: 1250px; } }
-  @media (min-width: 360px) {
-    section#design {
-      height: 1250px; } }
-  @media (min-width: 375px) {
-    section#design {
-      height: 1300px; } }
-  @media (min-width: 384px) {
-    section#design {
-      height: 1300px; } }
-  @media (min-width: 412px) {
-    section#design {
-      height: 1400px; } }
-  @media (min-width: 600px) {
-    section#design {
-      height: 2100px; } }
-  @media (min-width: 600px) {
-    section#design {
-      height: 1250px; } }
-  @media (min-width: 768px) {
-    section#design {
-      height: 1350px; } }
-  @media (min-width: 800px) {
-    section#design {
-      height: 1350px; } }
-  @media (min-width: 1280px) {
-    section#design {
-      height: 1600px; } }
-  @media (min-width: 1440px) {
-    section#design {
-      height: 1600px; } }
-  @media (min-width: 1600px) {
-    section#design {
-      height: 1500px; } }
+  width: auto; }
 
 section#design h1 {
   font-family: 'Cookie', cursive;
@@ -6318,43 +6111,83 @@ section#design p {
       margin-right: 60px;
       padding-top: 25px; } }
 
+.screenscroll .img-responsive {
+  display: table;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 1; }
+
 .screenscroll {
   margin-top: 30px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  height: 500px; }
   @media (min-width: 600px) {
     .screenscroll {
-      height: 300px;
       width: auto;
       overflow: scroll; } }
   @media (min-width: 1000px) {
     .screenscroll {
-      height: 400px;
       width: auto;
       overflow: scroll;
       padding-left: 40px; } }
   @media (min-width: 1440px) {
     .screenscroll {
-      height: 400px;
       width: auto;
       overflow: scroll;
       padding-left: 100px; } }
   @media (min-width: 1280px) {
     .screenscroll {
-      height: 400px;
       width: auto;
       overflow: scroll;
       padding-top: 40px;
       margin-left: 80px; } }
 
 .logos {
-  margin-bottom: 40px; }
+  display: table;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding-bottom: 100px; }
+  @media (min-width: 320px) {
+    .logos {
+      padding-top: 100px; } }
+  @media (min-width: 360px) {
+    .logos {
+      padding-top: 120px; } }
+  @media (min-width: 400px) {
+    .logos {
+      padding-top: 140px; } }
+  @media (min-width: 440px) {
+    .logos {
+      padding-top: 180px; } }
+  @media (min-width: 470px) {
+    .logos {
+      padding-top: 210px; } }
+  @media (min-width: 500px) {
+    .logos {
+      padding-top: 260px; } }
+  @media (min-width: 520px) {
+    .logos {
+      padding-top: 300px; } }
+  @media (min-width: 540px) {
+    .logos {
+      padding-top: 350px; } }
+  @media (min-width: 580px) {
+    .logos {
+      padding-top: 370px; } }
+  @media (min-width: 590px) {
+    .logos {
+      padding-top: 400px; } }
+  @media (min-width: 600px) {
+    .logos {
+      padding-top: 0px; } }
   @media (min-width: 1000px) {
     .logos {
       display: table;
       text-align: center;
       margin: auto;
       padding-bottom: 100px;
-      padding-top: 50px; } }
+      padding-top: 30px; } }
   @media (min-width: 1280px) {
     .logos {
       display: table;
@@ -6364,49 +6197,17 @@ section#design p {
       padding-top: 50px; } }
 
 /* THE FINAL DESIGN */
-section#finaldesign {
+#finaldesign .container-fluid {
   background-color: #fff;
   height: 100%;
   width: auto; }
-  @media (min-width: 320px) {
-    section#finaldesign {
-      height: 840px;
-      margin-top: 30px; } }
-  @media (min-width: 360px) {
-    section#finaldesign {
-      height: 840px;
-      margin-top: 50px; } }
-  @media (min-width: 600px) {
-    section#finaldesign {
-      height: 1100px; } }
-  @media (min-width: 768px) {
-    section#finaldesign {
-      height: 1130px; } }
-  @media (min-width: 800px) {
-    section#finaldesign {
-      height: 1400px; } }
-  @media (min-width: 900px) {
-    section#finaldesign {
-      height: 900px;
-      margin-top: 0px; } }
-  @media (min-width: 1280px) {
-    section#finaldesign {
-      height: 1100px;
-      margin-top: 0px; } }
-  @media (min-width: 1600px) {
-    section#finaldesign {
-      height: 2800px; } }
 
 section#finaldesign h1 {
   font-family: 'Cookie', cursive;
   font-size: 45px;
   color: #595859;
-  padding-top: 10px;
+  padding-top: 50px;
   text-align: left; }
-  @media (min-width: 360px) {
-    section#finaldesign h1 {
-      padding-top: 20px;
-      margin-top: 0px; } }
   @media (min-width: 1280px) {
     section#finaldesign h1 {
       font-size: 60px;
@@ -6441,7 +6242,8 @@ section#finaldesign a {
 
 .finaldesign-img {
   margin: auto;
-  display: table; }
+  display: table;
+  padding-bottom: 50px; }
   @media (min-width: 320px) {
     .finaldesign-img {
       padding-top: 30px; } }
@@ -6455,11 +6257,7 @@ section#finaldesign a {
   width: auto;
   margin: auto;
   display: table;
-  padding-top: 40px;
   padding-bottom: 100px; }
-  @media (min-width: 1600px) {
-    .back-arrow {
-      padding-top: 70px; } }
 
 /* FOOTER */
 section#footer {
