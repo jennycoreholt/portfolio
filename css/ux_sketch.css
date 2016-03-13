@@ -6135,6 +6135,13 @@ section#header {
   margin-left: -15px;
   margin-right: -15px; }
 
+.back-arrow {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding-bottom: 40px;
+  cursor: pointer; }
+
 .text-wrapper2 {
   text-align: center;
   padding: 40px;

@@ -546,3 +546,12 @@ html,body {
     padding-top: 0px;
   }
 }
+
+.back-arrow {
+	text-align: center;
+	display: table;
+	margin: auto;
+	padding-top: 40px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}

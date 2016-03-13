@@ -1,0 +1,312 @@
+/* Saatchi Dashboard Project */
+
+// Importing Bootstrap
+@import "overrides.scss";
+@import "bootstrap/bootstrap.scss";
+
+html,body {
+	height: 100%;
+  margin: 0;
+}
+
+#header {
+  background-color: #ededed;
+  width: 100%;
+  height: auto;
+}
+
+.saatchi-logo {
+  padding: 10px 80px 10px 80px;
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+
+.header-img {
+  display: table;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+#header h3 {
+  color: #595959;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+
+  @media (min-width: 320px){
+    font-size: 35px;
+  }
+  @media (min-width: 600px){
+      font-size: 45px;
+  }
+  @media (min-width: 1280px){
+      font-size: 50px;
+  }
+}
+
+#header p {
+  color: #595959;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 22px 90px 22px;
+
+  @media (min-width: 320px){
+    padding: 5px 10px 90px 10px;
+    font-size: 20px;
+  }
+
+  @media (min-width: 1280px){
+    padding: 20px 35px 80px 35px;
+    font-size: 30px;
+  }
+}
+
+#section1 {
+  background-color: #606060;
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+}
+
+#section1 p {
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 20px 40px 20px;
+
+  @media (min-width: 1280px){
+    padding: 80px 35px 80px 35px;
+    font-size: 30px;
+  }
+}
+
+#sketch {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.sketch1 {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding: 60px 15px 15px 15px;
+
+  @media (min-width: 1280px){
+    padding: 100px 15px 50px 15px;
+  }
+}
+
+.sketch2 {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding: 0px 15px 60px 15px;
+
+  @media (min-width: 1280px){
+    padding: 0px 15px 100px 15px;
+  }
+}
+
+#section2 {
+  background-color: #ededed;
+  width: 100%;
+  height: auto;
+}
+
+.menu-img {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding: 50px 15px 15px 15px;
+
+  @media (min-width: 1280px){
+    padding: 100px 15px 50px 15px;
+  }
+}
+
+#section2  p {
+  padding: 30px;
+  color: #595959;
+  font-size: 20px;
+
+  @media (min-width: 1280px){
+    padding: 50px;
+  }
+}
+
+#section2  h3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  color: #595959;
+  font-size: 20px;
+  font-style: bold;
+
+  @media (min-width: 1280px){
+    padding: 50px;
+  }
+}
+
+#section2  i {
+  color: #114B5F;
+  font-size: 25px;
+  text-align: center;
+
+  @media (min-width: 1280px){
+    text-align: center;
+  }
+}
+
+.center-quote {
+  margin: auto;
+  display: table;
+  text-align: center;
+}
+
+#section2 footer {
+  color: #186D89;
+  padding-top: 10px;
+}
+
+.screen-shot1 {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding-bottom: 15px;
+
+  @media (min-width: 1280px){
+    padding-bottom: 30px;
+  }
+}
+
+.screen-shot2 {
+  margin: auto;
+  display: table;
+  text-align: center;
+	padding-bottom: 40px;
+
+  @media (min-width: 1280px){
+    padding-bottom: 50px;
+  }
+
+}
+
+.screen-shot3 {
+  margin: auto;
+  display: table;
+  text-align: center;
+  padding: 40px 0 15px 0;
+
+  @media (min-width: 1280px){
+    padding-top: 60px;
+  }
+}
+
+.screen-shot4 {
+  margin: auto;
+  display: table;
+  text-align: center;
+  padding-bottom: 15px;
+
+  @media (min-width: 1280px){
+    padding-top: 20px;
+  }
+
+}
+
+#color-palette {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/background-img.png");
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+#color-palette p {
+  padding: 60px 15px 60px 15px;
+  color: #114B5F;
+  font-size: 20px;
+  text-align: center;
+}
+
+.screen-shot5 {
+  margin: auto;
+  display: table;
+  text-align: center;
+  padding: 50px 0px 15px 0px;
+
+  @media (min-width: 1280px){
+    padding-top: 100px;
+  }
+}
+
+#section3  p {
+  padding: 30px;
+  color: #595959;
+  font-size: 20px;
+
+  @media (min-width: 1280px){
+    padding: 50px;
+  }
+}
+
+.screen-shot6 {
+  margin: auto;
+  display: table;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#section4-banner {
+  background-color: #606060;
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+}
+
+#section4-banner h3 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (min-width: 1280px){
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+#section4 {
+  width: 100%;
+  height: auto;
+  background-image: #ffffff;
+  background-repeat: no-repeat;
+  // background-color: #f5d2d2;
+}
+
+.final-design {
+  margin: auto;
+  display: table;
+  text-align: center;
+  padding-bottom: 54px;
+  margin-top: 20px;
+}
+
+.back-arrow {
+  text-align: center;
+  margin: auto;
+  display: table;
+  padding-bottom: 40px;
+  cursor: pointer;
+}

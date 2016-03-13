@@ -179,21 +179,21 @@ section#header {
 	}
 }
 
-#challenge .img-responsive {
+.rac-original-website {
 	padding-top: 10px;
 	margin-bottom: 100px;
 	width: 600px;
 	height: auto;
 
 	@media (min-width: 950px) {
-		margin-left: 60px;
-		margin-right: 60px;
+		// margin-left: 60px;
+		// margin-right: 60px;
 		margin-top: 80px;
 	}
 
 	@media (min-width: 1280px) {
-		margin-left: 60px;
-		margin-right: 60px;
+		// margin-left: 60px;
+		// margin-right: 60px;
 		margin-top: 80px;
 	}
 }
@@ -405,42 +405,49 @@ section#design p {
 	}
 }
 
-.screenscroll .img-responsive {
+.design-img {
+	text-align: center;
+	margin: auto;
 	display: table;
-	margin-bottom: 100px;
-	position: relative;
-	z-index: 1;
+	padding-top: 30px;
 }
-
-.screenscroll {
-	margin-top: 30px;
-	margin-bottom: 40px;
-	height: 500px;
-
-	@media (min-width: 600px) {
-		width: auto;
-		overflow: scroll;
-	}
-
-	@media (min-width: 1000px) {
-		width: auto;
-		overflow: scroll;
-		padding-left: 40px;
-	}
-
-	@media (min-width: 1440px) {
-		width: auto;
-		overflow: scroll;
-		padding-left: 100px;
-	}
-
-	@media (min-width: 1280px) {
-		width: auto;
-		overflow: scroll;
-		padding-top: 40px;
-		margin-left: 80px;
-	}
-}
+//
+// .screenscroll .img-responsive {
+// 	display: table;
+// 	margin-bottom: 100px;
+// 	position: relative;
+// 	z-index: 1;
+// }
+//
+// .screenscroll {
+// 	margin-top: 30px;
+// 	margin-bottom: 40px;
+// 	height: 500px;
+//
+// 	@media (min-width: 600px) {
+// 		width: auto;
+// 		overflow: scroll;
+// 	}
+//
+// 	@media (min-width: 1000px) {
+// 		width: auto;
+// 		overflow: scroll;
+// 		padding-left: 40px;
+// 	}
+//
+// 	@media (min-width: 1440px) {
+// 		width: auto;
+// 		overflow: scroll;
+// 		padding-left: 100px;
+// 	}
+//
+// 	@media (min-width: 1280px) {
+// 		width: auto;
+// 		overflow: scroll;
+// 		padding-top: 40px;
+// 		margin-left: 80px;
+// 	}
+// }
 
 .logos{
 	display: table;

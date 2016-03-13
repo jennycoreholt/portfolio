@@ -5925,20 +5925,16 @@ section#header {
       margin-right: 60px;
       margin-top: 25px; } }
 
-#challenge .img-responsive {
+.rac-original-website {
   padding-top: 10px;
   margin-bottom: 100px;
   width: 600px;
   height: auto; }
   @media (min-width: 950px) {
-    #challenge .img-responsive {
-      margin-left: 60px;
-      margin-right: 60px;
+    .rac-original-website {
       margin-top: 80px; } }
   @media (min-width: 1280px) {
-    #challenge .img-responsive {
-      margin-left: 60px;
-      margin-right: 60px;
+    .rac-original-website {
       margin-top: 80px; } }
 
 .row {
@@ -6111,36 +6107,11 @@ section#design p {
       margin-right: 60px;
       padding-top: 25px; } }
 
-.screenscroll .img-responsive {
+.design-img {
+  text-align: center;
+  margin: auto;
   display: table;
-  margin-bottom: 100px;
-  position: relative;
-  z-index: 1; }
-
-.screenscroll {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  height: 500px; }
-  @media (min-width: 600px) {
-    .screenscroll {
-      width: auto;
-      overflow: scroll; } }
-  @media (min-width: 1000px) {
-    .screenscroll {
-      width: auto;
-      overflow: scroll;
-      padding-left: 40px; } }
-  @media (min-width: 1440px) {
-    .screenscroll {
-      width: auto;
-      overflow: scroll;
-      padding-left: 100px; } }
-  @media (min-width: 1280px) {
-    .screenscroll {
-      width: auto;
-      overflow: scroll;
-      padding-top: 40px;
-      margin-left: 80px; } }
+  padding-top: 30px; }
 
 .logos {
   display: table;
