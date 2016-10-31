@@ -1,0 +1,495 @@
+// homepage.scss //
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/* ----------------------------- body style ----------------------------------*/
+html, body {
+  font-family: "Open Sans", arial;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.homepage-content {
+  height: 100%;
+}
+
+.homepage-content .container-fluid {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-content .container-fluid .row {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-content .container-fluid .row .col-md-4 {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  cursor:pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* --------------------------- text styles ---------------------------------- */
+.text-wrap {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  left: -100%;
+  margin-top: 20px;
+  position: absolute;
+  transition: all 400ms ease-out;
+  z-index:4;
+  width: 100%;
+}
+
+.text-wrap.show {
+  transform: translateX(100%);
+}
+
+.text-wrap p {
+  color: #aeaeae;
+  padding-bottom: 10px;
+}
+
+.about_text {
+  padding: 20px;
+}
+
+.wrap {
+  padding-left: 30px;
+  padding-top: 25px;
+  color: #aeaeae;
+}
+
+.text-wrapper {
+  color: #928c8c;
+  padding: 10px 20px 25px;
+}
+
+.text-wrapper h4 {
+  font-weight: 600;
+}
+
+.text-wrapper a {
+  color: #8BB7B1;
+}
+
+.text-wrapper a:hover {
+  background-color:  #8BB7B1;
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px 5px 5px 8px;
+  text-decoration: none;
+
+  .glyphicon.glyphicon-menu-right {
+    background-color:  #8BB7B1;
+    color: #fff;
+  }
+}
+
+.glyphicon.glyphicon-menu-right {
+  color: #8BB7B1;
+  font-size: 12px;
+  padding-bottom: -2px;
+  padding-left: 5px;
+}
+
+.truncate-ellipsis {
+    display: table;
+    height: 1em;
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.truncate-ellipsis > * {
+    display: table-cell;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ---------------------------- container styles -----------------------------*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ----------------------------- image & section styling -------------------------------*/
+.brand-section {
+  background: linear-gradient(rgba(231, 223, 217, 1), rgba(231, 223, 217, 1));
+}
+
+.project_one_colour {
+  background: linear-gradient(rgba(231, 223, 217, 1), rgba(231, 223, 217, 1));
+}
+
+.section-wrapper {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.section-wrapper.fade {
+  opacity: 0.3;
+}
+
+#project_one {
+  background: rgba(231, 223, 217, 1);
+  background-size: cover;
+  overflow: hidden;
+  color: #FFFFFF;
+  height: 100%;
+  z-index: -1;
+}
+
+#project_two {
+  background: rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+}
+
+#project_three {
+  background: rgba(58, 54, 111, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+}
+
+a.homepage-image img {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 20px;
+  right: 0;
+  z-index:1;
+}
+
+.project_description {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  display: none;
+  margin: 6em 20px 0;
+  position: relative;
+}
+
+.project_description::before {
+  content: "";
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #fff;
+  left: 50%;
+  margin-left: -1.35em;
+  position: absolute;
+  top: -0.8em;
+  width: 0;
+}
+
+/* -------------------------- social media icons -----------------------------*/
+.social-media {
+  margin-bottom: 10px;
+  padding-left:  0;
+}
+.social-media li {
+  display: inline;
+}
+
+.social-media li img {
+  padding-right: 5px;
+  width: 35px;
+}
+
+/* ------------------------------ shapes -------------------------------------*/
+.circle_container {
+  padding-top: 10.5em;
+}
+
+#project_one > .circle_container {
+  padding-top: 6em;
+}
+
+.circle {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  bottom:0;
+  height: 280px;
+  left: 0;
+  margin: auto;
+  right:0;
+  width: 280px;
+  z-index: 1;
+}
+
+.small-circle {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  // bottom:0;
+  height: 40px;
+  left:0;
+  margin: 2em auto;
+  position:absolute;
+  right:0;
+  // top: 400px;
+  width: 40px;
+}
+
+/* ------------------------------- buttons -----------------------------------*/
+button:focus {
+  outline: none;
+}
+
+button#about {
+  background-color: Transparent;
+  border: 1px solid #aeaeae;
+  border-radius: 3px;
+  color: #aeaeae;
+  height: auto;
+  margin-top: 10px;
+  width: auto;
+}
+
+button#about p {
+  margin: 5px 10px;
+  padding: 0;
+}
+
+button.contact {
+  background-color: Transparent;
+  border: 1px solid #aeaeae;
+  border-radius: 3px;
+  color: #aeaeae;
+  height: auto;
+  margin: 10px auto 20px;
+  width: auto;
+}
+
+button.contact p {
+  margin: 5px 10px;
+  padding: 0;
+}
+
+// btn focus //
+button#about:focus {
+  background: #8BB7B1;
+  border: 1px solid #8BB7B1;
+  color: #fff;
+}
+
+button.contact:focus {
+  background: #8BB7B1;
+  border: 0;
+
+  p {
+    color:#fff;
+  }
+}
+
+/* ---------------------------- button transformations -----------------------*/
+$tcon-size: 40px !default;
+$tcon-transition: .3s !default;
+$tcon-jstransform: 'tcon-transform' !default;
+
+$tcon-plus-bg: transparent !default;
+$tcon-circle-radius: 80% !default;
+$tcon-plus-radius: ($tcon-size / 8) !default;
+$tcon-plus-color: black !default;
+$tcon-remove-color: black !default;
+
+#project_one > div > div > div > button {
+  margin-left: 2px;
+}
+
+#project_two > div > div > div > button {
+  margin-left: 2px;
+}
+
+#project_three > div > div > div > button {
+  margin-left: 2px;
+}
+
+.tcon.tcon-plus.tcon-plus--minus {
+  margin-left: 0.14em;
+}
+
+.tcon {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: $tcon-size;
+  justify-content: center;
+  outline: none;
+  transition: $tcon-transition;
+  user-select: none;
+  width: $tcon-size;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+
+  > * {
+    display: block;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none; // see issue #36 https://github.com/grayghostvisuals/transformicons/issues/36
+  }
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+.tcon-plus {
+  height: $tcon-size;
+  position: relative;
+  transform: scale(.75);
+  width: $tcon-size;
+
+  &::before,
+  &::after {
+    background: #fff;
+    border-radius: 2px;
+    content: "";
+    display: block;
+    height: 15%;
+    left: 8%;
+    position: absolute;
+    top: 35%;
+    transition: $tcon-transition;
+    width: 60%;
+  }
+
+  &:after {
+    transform: rotate(90deg);
+  }
+}
+
+.tcon-plus--minus {
+  &.#{$tcon-jstransform} {
+    &::before {
+      transform: rotate(180deg) translate(0, 0);
+      width:45%;
+    }
+
+    &::after {
+      transform: rotate(-180deg) translate(-37.5%, 0);
+      width: 45%;
+    }
+  }
+}
+
+// see issue #7 https://github.com/grayghostvisuals/transformicons/issues/7#issuecomment-59813596
+.tcon-visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &:active,
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+
+//-------------------------- mobile device styles ----------------------------//
+
+@media (max-width:$screen-xs-max) {
+  p {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .social-media li img {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 55px;
+  }
+
+
+}
+
+//------------------------- tablet device styles -----------------------------//
+
+@media(min-width: $screen-sm-min) {
+  .wrap {
+    padding-left: 45px;
+  }
+}
+
+@media(min-width: $screen-sm-min) {
+  .circle {
+    height: 230px;
+    width: 230px;
+  }
+
+  .circle_container {
+    padding-top: 15.5em;
+  }
+}
+
+//------------------------ md - lg devices ----------------------------------//
+@media (min-width: $screen-md-min) {
+  .circle_container {
+    padding-top: 16em;
+  }
+
+  #project_one > .circle_container {
+    padding-top: 6.3em;
+  }
+
+  .circle {
+    height: 280px;
+    width: 280px;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .circle_container {
+    padding-top: 15em;
+  }
+
+  .circle {
+    height: 320px;
+    width: 320px;
+  }
+
+  #project_one > .circle_container {
+    padding-top: 5.5em;
+  }
+}

@@ -1,0 +1,407 @@
+// Importing Bootstrap
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+html,body {
+	height: 100%;
+  margin: 0;
+}
+
+/* HOMEPAGE */
+#idea h4 {
+	padding-left: 10px;
+}
+
+section#header {
+	background-image: url("../img/rac-header.png");
+	background-repeat: repeat-x repeat-y;
+	background-position: center 30%;
+	width: auto;
+}
+
+#header h1 {
+	color: #fff;
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	margin-top: 50px;
+	text-align: center;
+
+	@media (min-width:$screen-sm-min) {
+		font-size: 50px;
+		margin-top: 100px;
+	}
+
+	@media (min-width:$screen-md-min) {
+		font-size: 60px;
+		margin-top: 150px;
+	}
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+
+#header h4 {
+	color: #FFFFFF;
+	font-family: sans-serif, serif;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+
+	@media (min-width:$screen-sm-min) {
+		font-size: 25px;
+		margin-bottom: 120px;
+	}
+
+	@media (min-width:$screen-md-min) {
+		margin-bottom: 170px;
+	}
+}
+
+/* CHALLENGEE SECTION */
+
+#challenge .container-fluid {
+	background-color: #DFDEDF;
+	height: 100%;
+	width: auto;
+}
+
+#challenge h1 {
+	color: #595859;
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 10px;
+	text-align: left;
+
+	@media(min-width: $screen-md-min){
+		padding-top: 10px;
+	}
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+
+#challenge p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #595859;
+	text-align: left;
+	padding: 10px;
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+		margin-top: 25px;
+	}
+}
+
+.rac-original-website {
+	height: auto;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@media(min-width: $screen-md-min ){
+		padding-top: 40px;
+	}
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* IDEAA SECTION */
+
+#idea .container-fluid {
+	background-color: #fbfbfb;
+	height: 100%;
+	width: auto;
+}
+
+.light-bulb {
+	margin: 20px auto auto auto;
+	padding-left: 70px;
+	padding-right: 70px;
+
+	@media (min-width: 600px) {
+		text-align: center;
+		display: table;
+		padding: 0;
+	}
+
+	@media (min-width: 1280px) {
+		text-align: center;
+		display: table;
+		padding: 0;
+	}
+}
+
+#idea h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	color: #595859;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#idea p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #595859;
+	padding: 10px;
+	text-align: left;
+
+	@media (min-width: 1280px) {
+		text-align: left;
+	}
+}
+
+.color-palette {
+	width: 100%;
+
+	@media (min-width: 600px) {
+		margin: auto;
+		display: table;
+		text-align: center;
+	}
+
+	@media (min-width: $screen-sm-min) {
+	 	content: url("../img/color-palette-lg.png");
+	}
+}
+
+.layout {
+	 margin-top: 40px;
+	 margin-bottom: 30px;
+  @media (min-width: $screen-sm-min) {
+	 margin-top: 40px;
+	 margin-bottom: 30px;
+	}
+	@media (min-width: $screen-md-min) {
+	 float: right;
+	}
+}
+
+.gallery-img {
+	img {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	@media(min-width: $screen-md-min) {
+		float: left;
+		margin-top: 40px;
+	}
+}
+
+/* WIREFRAMESS SECTION */
+
+#wireframe .container-fluid {
+	background-color: #e0e0e0;
+	background-image: url("../img/sketchlogo.png");
+	background-repeat: repeat-x repeat-y;
+	background-position: center 20%;
+	height: 100%;
+	width: auto;
+}
+
+#wireframe h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	color: #595859;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#wireframe p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #595859;
+	text-align: left;
+	padding: 10px;
+
+	@media (min-width: 360px) {
+		padding-bottom: 30px;
+	}
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-top: 25px;
+	}
+}
+
+.wireframe-img {
+	margin-bottom: 20px;
+
+	@media (min-width: 360px) {
+		margin-bottom: 50px;
+	}
+
+	@media (min-width: 600px) {
+		display: table;
+		text-align: center;
+		margin: auto;
+		padding-bottom: 40px;
+	}
+}
+
+.last-img{
+	margin-bottom: 50px;
+}
+
+/* THE DESIGN */
+
+#design .container-fluid {
+	background-color: #ececec;
+	height: 100%;
+	width: auto;
+}
+
+section#design h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	color: #595859;
+	padding-top: 30px;
+	padding-left: 10px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+
+section#design p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #595859;
+	text-align: left;
+	padding: 10px;
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-top: 25px;
+	}
+}
+
+.design-img {
+	text-align: center;
+	margin: auto;
+	display: table;
+	padding-top: 30px;
+}
+
+.logos{
+	display: table;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+
+/* THE FINAL DESIGN */
+
+#finaldesign .container-fluid{
+	background-color: #fff;
+	height: 100%;
+	width: auto;
+}
+
+section#finaldesign h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	color: #595859;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-left: 10px;
+	text-align: left;
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+
+section#finaldesign p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #595859;
+	text-align: left;
+	padding: 10px;
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-top: 25px;
+	}
+}
+
+section#finaldesign a {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+
+	@media (min-width: 320px) {
+		font-size: 18px;
+	}
+
+	@media (min-width: 1280px) {
+		margin-left: 60px;
+		margin-right: 60px;
+		padding-top: 25px;
+	}
+}
+
+.finaldesign-img {
+	margin: auto;
+	display: table;
+	padding-bottom: 50px;
+
+	@media (min-width: 320px) {
+		padding-top: 30px;
+	}
+
+	@media(min-width: 360px){
+		padding-top: 30px;
+	}
+}
+
+.back-arrow {
+  cursor: pointer;
+  height: 10px;
+  width: 50px;
+  margin: auto;
+  display: table;
+	padding-bottom: 100px;
+}
+
+
+/* FOOTER */
+
+section#footer {
+	background-color: #8fe5c5;
+	bottom: 0;
+}
+
+
+section#footer p {
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px 15px;
+	color: #fff;
+}
