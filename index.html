@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <title>Jenny Core-Holt Designer</title>
     <link rel="stylesheet" media="all" href="css/main.css"/>
@@ -13,150 +14,102 @@
     <![endif]-->
   </head>
   <body>
-    <div class="homepage-content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-4 project_one_colour">
-            <div class="brand-section">
-              <div class="wrap">
-                <h4>Jennifer Core-Holt</h4>
-                <h5>UX | UI | Visual Design</h5>
-                <button id="about">
-                  <p>About</p>
-                </button>
-              </div><!-- CLOSE brand section -->
-            </div>
+    <!-- navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jenny Core Visual Artist</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./allotment.html">About</a></li>
+            <li><a href="./allotment.html">Gallery</a></li>
+            <li><a href="./allotment.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- **END** navigation -->
 
-            <div class="about-section">
-              <div class="text-wrap">
-                <div class="about_text">
-                  <p>Hello!</p>
-                  <p>I am a British Designer based in Berlin.</p>
-                  <p>Seven years experience in the creative industry has guided and influenced my visual design process. I love to create sketches, wireframes, prototypes and code to produce user friendly products.</p>
-                  <p>It woud be awesome if we connected on social media!</p>
-                  <ul class="social-media">
-                    <li>
-                      <a href="https://twitter.com/jennycoreWOOP">
-                        <img src="bower_components/bootstrap-sass/assets/images/twitter-icon.png"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.behance.net/jennycoreholt">
-                        <img src="bower_components/bootstrap-sass/assets/images/behance-icon.png"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://dribbble.com/jennycoreholt">
-                        <img src="bower_components/bootstrap-sass/assets/images/dribbble-icon.png"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://de.linkedin.com/in/jennycoreart">
-                        <img src="bower_components/bootstrap-sass/assets/images/linkedin-icon.png"/>
-                      </a>
-                  </li>
-                  </ul>
-                  <a href="mailto:jenny@jennycore.com">
-                    <button class="contact">
-                      <p>contact</p>
-                    </button>
-                  </a>
-                </div><!-- CLOSE about-text -->
-              </div><!-- CLOSE text-wrap -->
-            </div><!-- CLOSE about-section -->
+    <!-- carousel -->
+    <div class="container-fluid">
+      <div id="homepage_carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#homepage_carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#homepage_carousel" data-slide-to="1"></li>
+          <li data-target="#mhomepage_carousel" data-slide-to="2"></li>
+        </ol>
 
-
-
-            <div class="section-wrapper">
-              <div id="project_one" class= "project_one_colour">
-                <div class="circle_container">
-                  <div class="circle">
-                    <div class="animsition-overlay" data-animsition-overlay="true">
-                      <a href="./riverside-art-center.html" class="homepage-image animsition-link"  data-animsition-out-class="overlay-slide-out-bottom" data-animsition-out-duration="2000">
-                        <img src="bower_components/bootstrap-sass/assets/images/rac_homepage_img.png" class="img-responsive">
-                      </a>
-                    </div>
-                    <div class="small-circle">
-                      <button type="button" class="tcon tcon-plus tcon-plus--minus" aria-label="add item" onclick="$('.project_description.one').fadeToggle('fast','linear');">
-                        <span class="tcon-visuallyhidden">add item</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="project_description one">
-                  <div class="text-wrapper">
-                    <h4>Case Study : Riverside Arts Center</h4>
-                    <p>As I have worked in the creative industry for 7 years, redesigning a gallery website seemed fitting. Due to many cuts in the arts over the past decade, it has been no suprise...</p>
-                    <div class="animsition-overlay" data-animsition-overlay="true">
-                      <a href="./riverside-art-center.html" class="animsition-link">
-                      Read more<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div><!-- CLOSE section wrapper -->
-
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <div id="project_two" class="project_two_colour">
-              <div class="circle_container">
-                <div class="circle">
-                  <a class="homepage-image" href="./allotment.html">
-                    <img src="bower_components/bootstrap-sass/assets/images/allotment_homepage_img.png" class="img-responsive">
-                  </a>
-                  <div class="small-circle">
-                    <button type="button" class="tcon tcon-plus tcon-plus--minus" aria-label="add item" onclick="$('.project_description.two').fadeToggle('fast','linear');">
-                      <span class="tcon-visuallyhidden">add item</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="project_description two">
-                <div class="text-wrapper">
-                  <h4>Case Study : The Allotment</h4>
-                  <p>This new vegan restaurant deserves a new website to showcase the amazing, artistically presented, food they have to offer!...</p>
-                  <a href="./allotment.html">
-                    Read more<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-fade carousel-inner">
+          <div class="item active">
+            <img src="la.jpg" alt="Los Angeles">
           </div>
 
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <div id="project_three" class="project_three_colour">
-              <div class="circle_container">
-                <div class="circle">
-                  <a class="homepage-image" href="./saatchi_project.html">
-                    <img src="bower_components/bootstrap-sass/assets/images/saatchi_homepage_img.png" class="img-responsive">
-                  </a>
-                  <div class="small-circle">
-                    <button type="button" class="tcon tcon-plus tcon-plus--minus" aria-label="add item" onclick="$('.project_description.three').fadeToggle('fast','linear');">
-                      <span class="tcon-visuallyhidden">add item</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+          <div class="item">
+            <img src="chicago.jpg" alt="Chicago">
+          </div>
 
-              <div class="project_description three">
-                <div class="text-wrapper">
-                  <h4>Saatchi Dashboard Redesign</h4>
-                  <p>As a user of Saatchi Online, I wanted to redesign the artist/collector dashboard, so the content is easier to access for the user. As it is an art site...</p>
-                  <a href="./saatchi_project.html">
-                    Read more<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-                  </a>
-                </div>
-              </div>
-
-            </div>
+          <div class="item">
+            <img src="ny.jpg" alt="New York">
           </div>
         </div>
       </div>
-    </div><!-- CLOSE homepage content -->
+    </div>
+    <!-- **END** carousel -->
+
+    <!-- text overlay area -->
+    <div class="container">
+      <div class="row">
+        <div class="text_overlay_carousel">
+
+          <div class="col-sm-4 col-md-3">
+            <h5>
+              Jenny Core’s work  is about the process rather than the end product – they are a performance, almost where what remains is a mark of an object that once existed. These works invite your imagination in.
+              <br></br>
+              <span>
+                Rebecca Gordon,<br>
+                Curator at Rise Art (2014).
+              </span>
+            </h5>
+          </div>
+
+          <div class="col-sm-4 col-md-6"></div>
+
+          <div class="col-sm-4 col-md-3">
+            <h1>
+              Exploring innovative ways of working in contemporary drawing.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- **END** text overlay area -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="copyright">
+          <span class="glyphicon glyphicon-copyright-mark"></span>  Jenny Core Visual Artist 2018
+        </div>
+        <div class="pull-right logo_area">
+          <a href="#">
+            <p>represented by</p>
+            <img class="img-responsive" src="img/rise_art_logo.png" alt="Rise Art Logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- **END** footer -->
+
+    <!-- <a href="./allotment.html"> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
