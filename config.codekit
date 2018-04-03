@@ -11,15 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/allotment.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/allotment.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower_components\/bootstrap-sass\/assets\/images\/allotment_background_img.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1685,6 +1676,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/homepage.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1721,6 +1721,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/gallery.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/8718702266_d7b0e22b19_o.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1743,6 +1752,187 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bubbles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156563,
+		"inputAbbreviatedPath": "\/img\/bubbles.jpg",
+		"outputAbbreviatedPath": "\/img\/bubbles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bubbles_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116338,
+		"inputAbbreviatedPath": "\/img\/bubbles_2.jpg",
+		"outputAbbreviatedPath": "\/img\/bubbles_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact_image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67427,
+		"inputAbbreviatedPath": "\/img\/contact_image.jpg",
+		"outputAbbreviatedPath": "\/img\/contact_image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/flickr_socialmedia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15640,
+		"inputAbbreviatedPath": "\/img\/flickr_socialmedia.png",
+		"outputAbbreviatedPath": "\/img\/flickr_socialmedia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram_socialmedia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9149,
+		"inputAbbreviatedPath": "\/img\/instagram_socialmedia.png",
+		"outputAbbreviatedPath": "\/img\/instagram_socialmedia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.38537e+07,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery.jpg",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/9510772220_0f3dd23494_h.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 685588,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/9510772220_0f3dd23494_h.jpg",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/9510772220_0f3dd23494_h.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/9510772220_b55cf381ef_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33909,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/9510772220_b55cf381ef_n.jpg",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/9510772220_b55cf381ef_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/ad.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/ad.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/b648d11d-876a-4365-8364-dcf9578ec52c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24747,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/b648d11d-876a-4365-8364-dcf9578ec52c.jpg",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/b648d11d-876a-4365-8364-dcf9578ec52c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/flickr-router-a595ba0a.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/flickr-router-a595ba0a.js",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/min\/flickr-router-a595ba0a-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/inside.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/inside.js",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/min\/inside-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/radar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/radar.js",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/min\/radar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/rollup-85c84b68.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/rollup-85c84b68.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/saved_resource.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/saved_resource.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/jenny_core_castlefield_gallery_files\/superagent-0c883dff.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/superagent-0c883dff.js",
+		"outputAbbreviatedPath": "\/img\/jenny_core_castlefield_gallery_files\/min\/superagent-0c883dff-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/img\/linkedin_socialmedia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16970,
+		"inputAbbreviatedPath": "\/img\/linkedin_socialmedia.png",
+		"outputAbbreviatedPath": "\/img\/linkedin_socialmedia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/quote_image.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1761,6 +1951,17 @@
 		"initialSize": 40137,
 		"inputAbbreviatedPath": "\/img\/rise_art_logo.png",
 		"outputAbbreviatedPath": "\/img\/rise_art_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/twitter_socialmedia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21777,
+		"inputAbbreviatedPath": "\/img\/twitter_socialmedia.png",
+		"outputAbbreviatedPath": "\/img\/twitter_socialmedia.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1849,15 +2050,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/saatchi_project.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/saatchi_project.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/sass\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1890,6 +2082,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/contact.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/contact.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/contact.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/gallery.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/gallery.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/gallery.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/homepage.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1899,38 +2123,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/homepage.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/homepage.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/partials\/rac-case-study.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/rac-case-study.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/rac-case-study.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/partials\/saatchi_project.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/saatchi_project.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/saatchi_project.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

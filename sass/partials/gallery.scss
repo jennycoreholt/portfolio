@@ -1,0 +1,53 @@
+// Importing Bootstrap
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.hero_bkgrd_header_image_3 {
+	background-image: url("../img/bubbles_2.jpg");
+}
+
+.gallery_thumbnail {
+	-moz-transition: opacity .5s ease-out;
+	-webkit-transition: opacity .5s ease-out;
+	-o-transition: opacity .5s ease-out;
+	background-color: lighten(#b8a3fd, 16%);
+	border-radius: 4px;
+	display: table;
+	height: 220px;
+	margin-bottom: 15px;
+	opacity: 1;
+	transition: opacity .5s ease-out;
+	width: 100%;
+	@media(min-width: $screen-sm) {
+		margin-bottom: 30px;
+	}
+	&:hover {
+		opacity: .5;
+
+		.gallery_image_title {
+			text-decoration: none;
+			opacity: 1;
+		}
+	}
+}
+
+.gallery_image_title {
+	-moz-transition: opacity .5s ease-out;
+	-webkit-transition: opacity .5s ease-out;
+	-o-transition: opacity .5s ease-out;
+	color: #000;
+	display: table-cell;
+	font-size: 23px;
+	height: 100%;
+	opacity: 0;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.no_text_decoration:hover {
+	text-decoration: none;
+}
