@@ -16,4 +16,9 @@ $(document).ready(function() {
 
   transformicons.add('.tcon');
 
+  //hamburger animation //
+	$('#hamburger-animation').click(function(){
+		$(this).toggleClass('open');
+	});
+
 });

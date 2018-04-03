@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/allotment.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1712,464 +1721,90 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/back-arrow.png": {
-		"fileType": 32768,
+	"\/img\/8718702266_d7b0e22b19_o.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3624,
-		"inputAbbreviatedPath": "\/img\/back-arrow.png",
-		"outputAbbreviatedPath": "\/img\/back-arrow.png",
+		"initialSize": 663207,
+		"inputAbbreviatedPath": "\/img\/8718702266_d7b0e22b19_o.jpg",
+		"outputAbbreviatedPath": "\/img\/8718702266_d7b0e22b19_o.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/background-img.png": {
-		"fileType": 32768,
+	"\/img\/8718702780_2bc3890397_o.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 229991,
-		"inputAbbreviatedPath": "\/img\/background-img.png",
-		"outputAbbreviatedPath": "\/img\/background-img.png",
+		"initialSize": 744683,
+		"inputAbbreviatedPath": "\/img\/8718702780_2bc3890397_o.jpg",
+		"outputAbbreviatedPath": "\/img\/8718702780_2bc3890397_o.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/blue.png": {
+	"\/img\/quote_image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6279,
-		"inputAbbreviatedPath": "\/img\/blue.png",
-		"outputAbbreviatedPath": "\/img\/blue.png",
+		"initialSize": 11412,
+		"inputAbbreviatedPath": "\/img\/quote_image.png",
+		"outputAbbreviatedPath": "\/img\/quote_image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/case-study-ipad.png": {
+	"\/img\/rise_art_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 263926,
-		"inputAbbreviatedPath": "\/img\/case-study-ipad.png",
-		"outputAbbreviatedPath": "\/img\/case-study-ipad.png",
+		"initialSize": 40137,
+		"inputAbbreviatedPath": "\/img\/rise_art_logo.png",
+		"outputAbbreviatedPath": "\/img\/rise_art_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/case-study-iphone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 188769,
-		"inputAbbreviatedPath": "\/img\/case-study-iphone.png",
-		"outputAbbreviatedPath": "\/img\/case-study-iphone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/color-palette-lg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 140550,
-		"inputAbbreviatedPath": "\/img\/color-palette-lg.png",
-		"outputAbbreviatedPath": "\/img\/color-palette-lg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/color-palette-sm.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104821,
-		"inputAbbreviatedPath": "\/img\/color-palette-sm.png",
-		"outputAbbreviatedPath": "\/img\/color-palette-sm.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/colour-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11543,
-		"inputAbbreviatedPath": "\/img\/colour-img.png",
-		"outputAbbreviatedPath": "\/img\/colour-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/final-design.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 918170,
-		"inputAbbreviatedPath": "\/img\/final-design.png",
-		"outputAbbreviatedPath": "\/img\/final-design.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/finaldesign.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 280866,
-		"inputAbbreviatedPath": "\/img\/finaldesign.png",
-		"outputAbbreviatedPath": "\/img\/finaldesign.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/gallery-img-lg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 320893,
-		"inputAbbreviatedPath": "\/img\/gallery-img-lg.png",
-		"outputAbbreviatedPath": "\/img\/gallery-img-lg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/gallery-img-sm.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 449815,
-		"inputAbbreviatedPath": "\/img\/gallery-img-sm.png",
-		"outputAbbreviatedPath": "\/img\/gallery-img-sm.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72513,
-		"inputAbbreviatedPath": "\/img\/logos.png",
-		"outputAbbreviatedPath": "\/img\/logos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/menus.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63013,
-		"inputAbbreviatedPath": "\/img\/menus.png",
-		"outputAbbreviatedPath": "\/img\/menus.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/original-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72909,
-		"inputAbbreviatedPath": "\/img\/original-logo.png",
-		"outputAbbreviatedPath": "\/img\/original-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rac-casestudy-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 406136,
-		"inputAbbreviatedPath": "\/img\/rac-casestudy-img.png",
-		"outputAbbreviatedPath": "\/img\/rac-casestudy-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rac-devices.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 349701,
-		"inputAbbreviatedPath": "\/img\/rac-devices.png",
-		"outputAbbreviatedPath": "\/img\/rac-devices.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rac-header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4284,
-		"inputAbbreviatedPath": "\/img\/rac-header.png",
-		"outputAbbreviatedPath": "\/img\/rac-header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rac-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 125372,
-		"inputAbbreviatedPath": "\/img\/rac-img.png",
-		"outputAbbreviatedPath": "\/img\/rac-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rac-new-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26651,
-		"inputAbbreviatedPath": "\/img\/rac-new-logo.png",
-		"outputAbbreviatedPath": "\/img\/rac-new-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/racfinaldesign.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 728128,
-		"inputAbbreviatedPath": "\/img\/racfinaldesign.png",
-		"outputAbbreviatedPath": "\/img\/racfinaldesign.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/red.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6319,
-		"inputAbbreviatedPath": "\/img\/red.png",
-		"outputAbbreviatedPath": "\/img\/red.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-background-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 128393,
-		"inputAbbreviatedPath": "\/img\/saatchi-background-img.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-background-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-Dashboard-redesign-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114398,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-1.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-Dashboard-redesign-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72622,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-2.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-Dashboard-redesign-3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66107,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-3.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-Dashboard-redesign-4.png": {
+	"\/img\/variable20.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-4.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-4.png",
+		"inputAbbreviatedPath": "\/img\/variable20.png",
+		"outputAbbreviatedPath": "\/img\/variable20.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/saatchi-Dashboard-redesign-5.png": {
+	"\/img\/variable5.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-5.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-5.png",
+		"inputAbbreviatedPath": "\/img\/variable5.png",
+		"outputAbbreviatedPath": "\/img\/variable5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/saatchi-Dashboard-redesign-6.png": {
+	"\/img\/variable6.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-6.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-Dashboard-redesign-6.png",
+		"initialSize": 2.90364e+06,
+		"inputAbbreviatedPath": "\/img\/variable6.png",
+		"outputAbbreviatedPath": "\/img\/variable6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/saatchi-final-design.png": {
+	"\/img\/variable8.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/saatchi-final-design.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-final-design.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/saatchi-project-header-img.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/saatchi-project-header-img.png",
-		"outputAbbreviatedPath": "\/img\/saatchi-project-header-img.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/SaatchiArtLogo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/SaatchiArtLogo.png",
-		"outputAbbreviatedPath": "\/img\/SaatchiArtLogo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sketch1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/sketch1.png",
-		"outputAbbreviatedPath": "\/img\/sketch1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sketch2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/sketch2.png",
-		"outputAbbreviatedPath": "\/img\/sketch2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/sketchlogo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/sketchlogo.png",
-		"outputAbbreviatedPath": "\/img\/sketchlogo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/theidea.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11704,
-		"inputAbbreviatedPath": "\/img\/theidea.png",
-		"outputAbbreviatedPath": "\/img\/theidea.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/underconstruction.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49108,
-		"inputAbbreviatedPath": "\/img\/underconstruction.png",
-		"outputAbbreviatedPath": "\/img\/underconstruction.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/wireframe1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/wireframe1.png",
-		"outputAbbreviatedPath": "\/img\/wireframe1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/wireframe2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/wireframe2.png",
-		"outputAbbreviatedPath": "\/img\/wireframe2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/wireframe3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/wireframe3.png",
-		"outputAbbreviatedPath": "\/img\/wireframe3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/wireframe4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/wireframe4.png",
-		"outputAbbreviatedPath": "\/img\/wireframe4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/yellow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/yellow.png",
-		"outputAbbreviatedPath": "\/img\/yellow.png",
+		"initialSize": 1.17962e+07,
+		"inputAbbreviatedPath": "\/img\/variable8.png",
+		"outputAbbreviatedPath": "\/img\/variable8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2214,15 +1849,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/riverside-art-center.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/riverside-art-center.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/saatchi_project.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2248,15 +1874,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/partials\/allotment.scss": {
+	"\/sass\/partials\/about.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/partials\/allotment.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/allotment.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/about.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/about.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2311,17 +1937,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/sketches\/background.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63445,
-		"inputAbbreviatedPath": "\/sketches\/background.jpg",
-		"outputAbbreviatedPath": "\/sketches\/background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		}
 	},
 "hooks": [
