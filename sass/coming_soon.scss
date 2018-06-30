@@ -1,0 +1,139 @@
+//********** text *********//
+html,
+body {
+  background-color: #ebfff9;
+  color: #929292;
+  letter-spacing: 1.5px;
+}
+
+.green-text,
+a {
+  color: #53caaa;
+}
+
+a {
+  -webkit-transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+
+  &:hover {
+    color: darken(#53caaa, 20%);
+    text-decoration: none;
+  }
+}
+
+h3 {
+  line-height: 1.2;
+}
+
+//******** containers ********//
+.center-content-container {
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+.center-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.message-area {
+  margin-bottom: 30px;
+}
+
+//********** lists *********//
+ul.skill-list {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    font-weight: 200;
+    display: inline-block;
+
+    &:not(:last-child)::after {
+      content: "";
+      background-color: #53caaa;
+      border-radius: 50%;
+      display: inline-block;
+      height: 5px;
+      margin: 0 5px 0 8px;
+      vertical-align: middle;
+      width: 5px;
+    }
+  }
+}
+
+.social_media {
+  cursor: pointer;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+.social_media li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.social_media img {
+  height: auto;
+  width: 20px;
+}
+
+.float {
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+.float:hover {
+  transform: translateY(-5px);
+}
+
+//******** bkgrd images *******//
+@media(max-width: $screen-xs-max) {
+  .opacity {
+    opacity: 0.1;
+  }
+}
+
+.bk_b_l {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.bk_t_l {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bk_t_r {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bk_l_m {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.bk_b_r {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.bk_m_r {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}

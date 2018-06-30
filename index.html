@@ -1,145 +1,92 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/application.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-		<script src="js/jquery-scrollto.js"></script>
-		<script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
 		<script src="js/main.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/affix.js"></script>
     <title>Jenny Core-Holt Web Designer</title>
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!-- *************** HOME PAGE ***************  -->
-    <section id="header">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-md-12 col-lg-12">
-            <h1>Jenny Core-Holt</h1>
-            <h3>UX/UI Design | Visual Design</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-12 col-lg-12">
-            <i class="fa fa-chevron-circle-down hvr-hang"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- *************** NAV BAR ***************  -->
-    <div id="nav-wrapper">
-      <div id="mainnav">
-        <div class="navbar-header navbar navbar-default navbar-right"	role="navigation">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Jenny Core-Holt</a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-collapse collapse">
-              <ul class="nav nav-pills">
-                <li role="presentation"><a href="#about" class="page-scroll">About</a></li>
-                <li role="presentation"><a href="#projects" class="page-scroll">Projects</a></li>
-                <li role="presentation"><a href="#contact" class="page-scroll">Contact</a></li>
+  <body>
+    <img class="img-responsive bk_t_l opacity" src="/img/bk_t_l.png" alt="background-image"/>
+    <img class="img-responsive bk_t_r opacity" src="/img/bk_t_r.png" alt="background-image"/>
+    <img class="img-responsive bk_b_r opacity" src="/img/bk_b_r.png" alt="background-image"/>
+    <img class="img-responsive bk_b_l opacity" src="/img/bk_b_l.png" alt="background-image"/>
+    <img class="img-responsive bk_m_r opacity" src="/img/bk_m_r.png" alt="background-image"/>
+    <img class="img-responsive bk_l_m hidden-xs" src="/img/bk_t_m.png" alt="background-image"/>
+    <!-- <div class="background-image-top-left"></div>
+    <div class="background-image-bottom-left"></div>
+    <div class="background-image-top-right"></div>
+    <div class="background-image-bottom-right"></div> -->
+    <div class="container">
+      <div class="center-content-container">
+        <div class="center-content">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 class="text-center green-text">Jenny Core-Holt</h1>
+              <h3 class="text-center green-text">Frontend Designer</h3>
+              <ul class="text-center skill-list">
+                <li>UI</li>
+                <li>UX</li>
+                <li>Design Mockups</li>
+                <li>Wireframes</li>
+                <li>html</li>
+                <li>sass</li>
+                <li>css</li>
+                <li>js</li>
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- *************** ABOUT PAGE ************  -->
-    <div id="about">
-      <!-- <h2><b>Collaborate. Communicate. Innovate.</b></h2> -->
-        <div class="pic">
-          <img src="img/jennycoreholt-photo.png" alt="Jenny Core-Holt"/>
+          <div class="row">
+
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6">
+              <div class="message-area">
+                <h3 class="text-center">Hello,</h3>
+                <h3 class="text-center">You found me!<br> I am currenly rebuilding my portfolio.</h3>
+                <h3 class="text-center">Come back soon!</h3>
+              </div>
+            </div>
+
+            <div class="col-md-3"></div>
+
+          </div>
+
+          <div class="row">
+
+            <!-- email address -->
+            <p class="text-center">
+              <a href="mailto:jenny@jennycore.com" target="_top">
+                <img class="text-center email-icon" src="/img/email-icon.svg" alt="email-icon"/>
+                <span>jenny@jennycore.com</span>
+              </a>
+            </p>
+            <!-- **END** email address -->
+
+            <!-- social media area -->
+            <ul class="text-center social_media">
+              <li class="float"><a href="https://twitter.com/jennycoreWOOP" target="_blank"><img class="img-responsive" src="/img/twitter_socialmedia.png" alt="twitter"/></a></li>
+              <li class="float"><a href="https://www.instagram.com/jenny_core_art/" target="_blank"><img class="img-responsive" src="/img/dribbble_socialmedia.png" alt="dribbble"/></a></li>
+              <li class="float"><a href="https://www.flickr.com/photos/jennycorewoop/" target="_blank"><img class="img-responsive" src="/img/behance_socialmedia.png" alt="behance"/></a></li>
+              <li class="float"><a href="https://www.linkedin.com/in/jennycoreart/" target="_blank"><img class="img-responsive" src="/img/linkedin_socialmedia.png" alt="LinkedIn"/></a></li>
+            </ul>
+            <!-- **END** social media area -->
+
+          </div>
+
         </div>
-      <div class="info">
-        <h3>Hello!</h3>
-        <p><b>I am a British Designer based in Berlin.</b></p><p>Seven years experience in the creative industry has guided and influenced my visual design process. I love to create sketches, wireframes, prototypes and code to produce user friendly products.</p>
-        <ul class="social-media list-inline">
-          <li class="hvr-bob"><a href="https://twitter.com/jennycoreWOOP"><img src="img/twitter.png"	alt="twitter"/></a></li>
-          <li class="hvr-bob"><a href="https://www.facebook.com/jennycoreart"><img src="img/fb.png" alt="facebook"/></a></li>
-          <li class="hvr-bob"><a href="https://uk.pinterest.com/jennycore/"><img src="img/pinterest.png" alt="pinterest"/></a></li>
-          <li class="hvr-bob"><a href="https://instagram.com/jenny_core_art/"><img src="img/instagram.png" alt="instagram"/></a></li>
-          <li class="hvr-bob"><a href="https://de.linkedin.com/in/jennycoreart"><img src="img/linkedin.png" alt="linkedIn"/></a></li>
-        </ul>
+
       </div>
-    </div>
-    <!-- *************** PROJECTS PAGE ************  -->
-    <div id="projects">
-      <div class="container">
-          <div class="project-image1 hvr-grow-shadow">
-            <a href="/case_studies/riverside-art-center.html">
-              <img src="img/rac-casestudy-img.png" class="img-responsive" alt="Riverside Art Center Case Study"/>
-            </a>
-          </div>
-          <div class="project-image2 hvr-grow-shadow">
-            <a href="/saatchi_project/saatchi_project.html">
-              <img src="img/saatchi-project-img.png" class="img-responsive" alt="Saatchi Dashboard Project"/>
-            </a>
-          </div>
-          <div class="project-image3 hvr-grow-shadow">
-            <a href="/ux_sketch/ux_sketch.html">
-              <img src="img/ux-design-img.png" class="img-responsive" alt="UX Design Project"/>
-            </a>
-          </div>
-          <div class="project-image4 hvr-grow-shadow">
-            <a href="/ui/ui-main.html">
-              <img src="img/ui-design-img.png" class="img-responsive" alt="UI Design Project"/>
-            </a>
-          </div>
-      </div>
-    </div>
-    <!-- *************** sketchbook PAGE ************ -->
-    <!-- <div class="sketchbook">
-      <div class="case-study-text">
-        <h3>Sketch Book</h3>
-        <p>Browse through a collection of digital drawings, animations and interactive projects, that I am currently working on.</p>
-      </div>
-      <div class="brighten">
-        <a href="/diamond_pattern/diamond_pattern.html">
-          <img src="/img/diamond-pattern.png" class="img-responsive" alt="diamond pattern"/>
-        </a>
-        <a href="/tea_pattern/tea_pattern.html">
-          <img src="/img/tea-pattern.png" class="img-responsive" alt="tea pattern"/>
-        </a>
-        <a href="/deathstar_pattern/deathstar_pattern.html">
-          <img src="/img/deathstar-pattern.png" class="img-responsive" alt="star wars pattern"/>
-        </a>
-        <a href="/digital_drawing/digital_drawing_man.html">
-          <img src="/img/digital-drawing2.png" class="img-responsive" alt="digital drawing of a man"/>
-        </a>
-        <a href="/crane_pattern/crane_pattern.html">
-          <img src="/img/crane-pattern.png" class="img-responsive" alt="crane pattern"/>
-        </a>
-        <a href="/ux_sketch/ux_sketch.html">
-          <img src="/img/ux-design.png" class="img-responsive" alt="UX Scrolling Design"/>
-        </a>
-        <a href="/ui/ui-main.html">
-          <img src="/img/ui-design.png" class="img-responsive" alt="UI design"/>
-        </a>
-        <a href="/digital_drawing/berlin-skyline.html">
-          <img src="/img/case-studies.png" class="img-responsive" alt="digital drawing of Berlin skyline"/>
-        </a>
-      </div>
-    </div> -->
-    <!-- *************** CONTACT ************  -->
-    <div id="contact">
-      <h2>Thanks for stopping by!</h2>
-      <p>If you are interested in my designs or want to see more projects, then do not hesitate to get in touch!</p>
-      <a href="mailto:jenny@jennycore.com" class="btn btn-contact">Contact Me</a>
     </div>
   </body>
-  </html>
+</html>
