@@ -7267,15 +7267,21 @@ h3 {
 .message-area {
   margin-bottom: 30px; }
 
-/* line 47, ../sass/coming_soon.scss */
+/* line 46, ../sass/coming_soon.scss */
+.bring-to-front > a,
+p {
+  position: relative;
+  z-index: 10; }
+
+/* line 53, ../sass/coming_soon.scss */
 ul.skill-list {
   list-style-type: none;
   padding-left: 0; }
-  /* line 50, ../sass/coming_soon.scss */
+  /* line 56, ../sass/coming_soon.scss */
   ul.skill-list li {
     font-weight: 200;
     display: inline-block; }
-    /* line 54, ../sass/coming_soon.scss */
+    /* line 60, ../sass/coming_soon.scss */
     ul.skill-list li:not(:last-child)::after {
       content: "";
       background-color: #53caaa;
@@ -7286,25 +7292,25 @@ ul.skill-list {
       vertical-align: middle;
       width: 5px; }
 
-/* line 67, ../sass/coming_soon.scss */
+/* line 73, ../sass/coming_soon.scss */
 .social_media {
   cursor: pointer;
   margin-bottom: 0;
   margin-top: 15px;
   padding-left: 0; }
 
-/* line 74, ../sass/coming_soon.scss */
+/* line 80, ../sass/coming_soon.scss */
 .social_media li {
   display: inline-block;
   list-style: none;
   padding-right: 10px; }
 
-/* line 80, ../sass/coming_soon.scss */
+/* line 86, ../sass/coming_soon.scss */
 .social_media img {
   height: auto;
   width: 20px; }
 
-/* line 85, ../sass/coming_soon.scss */
+/* line 91, ../sass/coming_soon.scss */
 .float {
   display: inline-block;
   transition-duration: 0.3s;
@@ -7313,45 +7319,45 @@ ul.skill-list {
   transform: translateZ(0);
   box-shadow: 0 0 1px transparent; }
 
-/* line 94, ../sass/coming_soon.scss */
+/* line 100, ../sass/coming_soon.scss */
 .float:hover {
   transform: translateY(-5px); }
 
 @media (max-width: 767px) {
-  /* line 100, ../sass/coming_soon.scss */
+  /* line 106, ../sass/coming_soon.scss */
   .opacity {
     opacity: 0.1; } }
-/* line 105, ../sass/coming_soon.scss */
+/* line 111, ../sass/coming_soon.scss */
 .bk_b_l {
   position: absolute;
   left: 0;
   bottom: 0; }
 
-/* line 111, ../sass/coming_soon.scss */
+/* line 117, ../sass/coming_soon.scss */
 .bk_t_l {
   position: absolute;
   left: 0;
   top: 0; }
 
-/* line 117, ../sass/coming_soon.scss */
+/* line 123, ../sass/coming_soon.scss */
 .bk_t_r {
   position: absolute;
   right: 0;
   top: 0; }
 
-/* line 123, ../sass/coming_soon.scss */
+/* line 129, ../sass/coming_soon.scss */
 .bk_l_m {
   position: absolute;
   bottom: 0%;
   left: 0%; }
 
-/* line 129, ../sass/coming_soon.scss */
+/* line 135, ../sass/coming_soon.scss */
 .bk_b_r {
   bottom: 0;
   position: absolute;
   right: 0; }
 
-/* line 135, ../sass/coming_soon.scss */
+/* line 141, ../sass/coming_soon.scss */
 .bk_m_r {
   position: absolute;
   right: 0;
