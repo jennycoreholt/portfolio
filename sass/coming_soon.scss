@@ -1,9 +1,13 @@
 //********** text *********//
 html,
 body {
-  background-color: #ebfff9;
+  // background-color: #ebfff9;
   color: #929292;
   letter-spacing: 1.5px;
+}
+
+.background_green {
+  background-color: #ebfff9;
 }
 
 .green-text,
@@ -142,4 +146,21 @@ ul.skill-list {
   position: absolute;
   right: 0;
   top: 30%;
+}
+
+//****** animations ******//
+.page_load_animation {
+  -webkit-animation: .8s ease-in 0s 1 slideInFromBottom ; /* Safari 4+ */
+  -moz-animation: .8 ease-int 0s 1 slideInFromBottom ; /* Fx 5+ */
+  -o-animation: .8 ease-in 0s 1 slideInFromBottom ; /* Opera 12+ */
+  animation: .8 ease-in 0s 1 slideInFromBottom ; /* IE 10+, Fx 29+ */
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translatey(15%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
 }

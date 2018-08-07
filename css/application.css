@@ -7228,60 +7228,63 @@ button.close {
 /* line 2, ../sass/coming_soon.scss */
 html,
 body {
-  background-color: #ebfff9;
   color: #929292;
   letter-spacing: 1.5px; }
 
 /* line 9, ../sass/coming_soon.scss */
+.background_green {
+  background-color: #ebfff9; }
+
+/* line 13, ../sass/coming_soon.scss */
 .green-text,
 a {
   color: #53caaa; }
 
-/* line 14, ../sass/coming_soon.scss */
+/* line 18, ../sass/coming_soon.scss */
 a {
   -webkit-transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out; }
-  /* line 20, ../sass/coming_soon.scss */
+  /* line 24, ../sass/coming_soon.scss */
   a:hover {
     color: #2b8c72;
     text-decoration: none; }
 
-/* line 26, ../sass/coming_soon.scss */
+/* line 30, ../sass/coming_soon.scss */
 h3 {
   line-height: 1.2; }
 
-/* line 31, ../sass/coming_soon.scss */
+/* line 35, ../sass/coming_soon.scss */
 .center-content-container {
   display: table;
   height: 100vh;
   width: 100%; }
 
-/* line 37, ../sass/coming_soon.scss */
+/* line 41, ../sass/coming_soon.scss */
 .center-content {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 42, ../sass/coming_soon.scss */
+/* line 46, ../sass/coming_soon.scss */
 .message-area {
   margin-bottom: 30px; }
 
-/* line 46, ../sass/coming_soon.scss */
+/* line 50, ../sass/coming_soon.scss */
 .bring-to-front > a,
 p {
   position: relative;
   z-index: 10; }
 
-/* line 53, ../sass/coming_soon.scss */
+/* line 57, ../sass/coming_soon.scss */
 ul.skill-list {
   list-style-type: none;
   padding-left: 0; }
-  /* line 56, ../sass/coming_soon.scss */
+  /* line 60, ../sass/coming_soon.scss */
   ul.skill-list li {
     font-weight: 200;
     display: inline-block; }
-    /* line 60, ../sass/coming_soon.scss */
+    /* line 64, ../sass/coming_soon.scss */
     ul.skill-list li:not(:last-child)::after {
       content: "";
       background-color: #53caaa;
@@ -7292,25 +7295,25 @@ ul.skill-list {
       vertical-align: middle;
       width: 5px; }
 
-/* line 73, ../sass/coming_soon.scss */
+/* line 77, ../sass/coming_soon.scss */
 .social_media {
   cursor: pointer;
   margin-bottom: 0;
   margin-top: 15px;
   padding-left: 0; }
 
-/* line 80, ../sass/coming_soon.scss */
+/* line 84, ../sass/coming_soon.scss */
 .social_media li {
   display: inline-block;
   list-style: none;
   padding-right: 10px; }
 
-/* line 86, ../sass/coming_soon.scss */
+/* line 90, ../sass/coming_soon.scss */
 .social_media img {
   height: auto;
   width: 20px; }
 
-/* line 91, ../sass/coming_soon.scss */
+/* line 95, ../sass/coming_soon.scss */
 .float {
   display: inline-block;
   transition-duration: 0.3s;
@@ -7319,48 +7322,65 @@ ul.skill-list {
   transform: translateZ(0);
   box-shadow: 0 0 1px transparent; }
 
-/* line 100, ../sass/coming_soon.scss */
+/* line 104, ../sass/coming_soon.scss */
 .float:hover {
   transform: translateY(-5px); }
 
 @media (max-width: 767px) {
-  /* line 106, ../sass/coming_soon.scss */
+  /* line 110, ../sass/coming_soon.scss */
   .opacity {
     opacity: 0.1; } }
-/* line 111, ../sass/coming_soon.scss */
+/* line 115, ../sass/coming_soon.scss */
 .bk_b_l {
   position: absolute;
   left: 0;
   bottom: 0; }
 
-/* line 117, ../sass/coming_soon.scss */
+/* line 121, ../sass/coming_soon.scss */
 .bk_t_l {
   position: absolute;
   left: 0;
   top: 0; }
 
-/* line 123, ../sass/coming_soon.scss */
+/* line 127, ../sass/coming_soon.scss */
 .bk_t_r {
   position: absolute;
   right: 0;
   top: 0; }
 
-/* line 129, ../sass/coming_soon.scss */
+/* line 133, ../sass/coming_soon.scss */
 .bk_l_m {
   position: absolute;
   bottom: 0%;
   left: 0%; }
 
-/* line 135, ../sass/coming_soon.scss */
+/* line 139, ../sass/coming_soon.scss */
 .bk_b_r {
   bottom: 0;
   position: absolute;
   right: 0; }
 
-/* line 141, ../sass/coming_soon.scss */
+/* line 145, ../sass/coming_soon.scss */
 .bk_m_r {
   position: absolute;
   right: 0;
   top: 30%; }
+
+/* line 152, ../sass/coming_soon.scss */
+.page_load_animation {
+  -webkit-animation: 0.8s ease-in 0s 1 slideInFromBottom;
+  /* Safari 4+ */
+  -moz-animation: 0.8 ease-int 0s 1 slideInFromBottom;
+  /* Fx 5+ */
+  -o-animation: 0.8 ease-in 0s 1 slideInFromBottom;
+  /* Opera 12+ */
+  animation: 0.8 ease-in 0s 1 slideInFromBottom;
+  /* IE 10+, Fx 29+ */ }
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translatey(15%); }
+  100% {
+    transform: translatey(0%); } }
 
 /*# sourceMappingURL=application.css.map */
